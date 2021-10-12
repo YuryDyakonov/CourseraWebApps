@@ -1,7 +1,7 @@
 import telebot
-token = '2009877076:AAHhpG8YNtcJpVEQQldWCBWjMCEfNmKjlCQ'
+import settings
 
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(settings.TOKEN_TELEGRAMM)
 
 currencies = ['евро', 'доллар']
 
