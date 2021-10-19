@@ -1,4 +1,7 @@
 1.txt
 *.log
+*.jpg
+poi.db
+git-test/
 settings.py
 __pycache__/
